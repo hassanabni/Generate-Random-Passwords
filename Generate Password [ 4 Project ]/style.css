@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(10, 63, 85);
+}
+.card {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 180px 70px;
+}
+
+.heading .white-color {
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 8px;
+}
+.heading .green-color {
+  color: rgb(63, 218, 97);
+  font-size: 2rem;
+  padding: 8px;
+}
+.heading hr {
+  background: white;
+  border: 0;
+  height: 2px;
+  max-width: 288px;
+  margin: 7px;
+}
+.input-tag{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.input-tag input {
+  margin: 16px 5px;
+  padding: 20px;
+  font-size: 1rem;
+  width: 400px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+.input-tag .copy-btn{
+    position: relative;
+    margin: 29px 5px;
+    height: 22px;
+    width: 23px;
+    right: 60px;
+    cursor: pointer;
+}
+.btn-tag{
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+.btn-tag img{
+    position: relative;
+    margin-top: 38px;
+    height: 26px;
+    width: 26px;
+    left: 16px;
+    z-index: 11;
+}
+.btn-tag .btn{
+    background-color: rgb(63, 218, 97);
+    font-weight: bolder;
+    font-size: 1rem;
+    margin: 20px 0 20px 0;
+    padding:10px;
+    height: 60px;
+    width: 230px;
+    position: relative;
+    right: 21px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
